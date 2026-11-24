@@ -1,0 +1,7 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+# Explicitly configure language statistics
+dashboard/** linguist-detectable=false
+results/** linguist-detectable=false
+attack_corpus.txt linguist-detectable=false
